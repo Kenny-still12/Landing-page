@@ -106,6 +106,7 @@ button {
     justify-content: space-evenly;
     padding: 40px;
     width: auto;
+    flex-shrink: 0;
 }
 
 .main.info {
