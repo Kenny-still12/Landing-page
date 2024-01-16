@@ -165,7 +165,7 @@ button {
 
 .container#signup {
     width: 800px;
-    height: 60px;
+    height: 120px;
     background-color: #3882F6;
     border-radius: 8px;
     display: flex;
@@ -176,6 +176,7 @@ button {
 .holder {
     display: flex;
     flex-direction: column;
+    padding: 24px;
 }
 
 .button#signup-page {
