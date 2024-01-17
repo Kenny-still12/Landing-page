@@ -42,6 +42,8 @@ a{
     color: #E5E7EB;
 }
 
+/* content page */
+
 .content {
     background-color:#1F2937;
     color:#F9FAF8;
@@ -93,6 +95,9 @@ button {
     color: #E5E7EB;
 }
 
+/* content page end */
+
+/* information page */
 .information-content{
     background-color: white;
     height: 800px;
@@ -106,7 +111,7 @@ button {
     justify-content: space-evenly;
     padding: 40px;
     width: auto;
-    flex-shrink: 0;
+    flex-wrap: wrap;
 }
 
 .main.info {
@@ -138,9 +143,9 @@ button {
     object-fit:cover;
     border-radius: 12px;
 }
+/* information page end */
 
-
-
+/* quote page */
 .quotes {
     background-color:#E5E7EB;
     font-size: 36px;
@@ -156,7 +161,9 @@ button {
     font-size: 24px;
     color: #1F2937;
 }
+/* quote page end */
 
+/* signup page */
 .signup-page {
     display: flex;
     justify-content: center;
